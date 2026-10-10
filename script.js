@@ -172,7 +172,7 @@ const I18N = {
       projects: 'Projects',
       contact: 'Contact',
       get: 'Get In Touch',
-      email: '<strong>Email:</strong><br />aymenouhiba@gmail.com',
+      email: '<strong>Email:</strong><br />ouhiba.aymen@gmail.com',
       location: '<strong>Location:</strong><br />Paris, France',
       connect: 'Connect',
       rights: '© <span id="year"></span> Portfolio. All rights reserved.',
@@ -345,7 +345,7 @@ const I18N = {
       projects: 'Projets',
       contact: 'Contact',
       get: 'Me contacter',
-      email: '<strong>Email:</strong><br />aymenouhiba@gmail.com',
+      email: '<strong>Email:</strong><br />ouhiba.aymen@gmail.com',
       location: '<strong>Localisation:</strong><br />Paris, France',
       connect: 'Reseaux',
       rights: '© <span id="year"></span> Portfolio. Tous droits reserves.',
@@ -594,7 +594,7 @@ if (messageForm) {
 
     const fullSubject = encodeURIComponent(subject);
     const fullBody = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
-    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=aymenouhiba@gmail.com&su=${fullSubject}&body=${fullBody}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=ouhiba.aymen@gmail.com&su=${fullSubject}&body=${fullBody}`;
     const dict = I18N[currentLang] || I18N.en;
 
     const tab = window.open(gmailUrl, '_blank', 'noopener,noreferrer');
